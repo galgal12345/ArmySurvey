@@ -1,0 +1,37 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  direction: rtl;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 40px 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.main-title {
+  color: #1a237e;
+  font-size: 32px;
+  margin: 0 0 16px 0;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #455a64;
+  font-size: 18px;
+  margin: 0;
+  max-width: 600px;
+  line-height: 1.5;
+} 

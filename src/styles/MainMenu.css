@@ -1,0 +1,42 @@
+.buttons-container {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
+.menu-button {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: 2px solid #333;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 20px;
+  margin-bottom: 12px;
+  transition: all 0.2s;
+}
+
+.menu-button:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-description {
+  text-align: center;
+  color: #444;
+  font-size: 14px;
+  margin: 0;
+  max-width: 200px;
+} 
